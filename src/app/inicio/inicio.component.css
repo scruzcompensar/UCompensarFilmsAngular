@@ -1,0 +1,85 @@
+.panel {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4)),
+        url(https://tenor.com/es-419/view/pruebacinepo-polito-popcorn-soda-gif-15014771.gif);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 30vh;
+        display: flex;
+        align-items: center;     
+        position: static;  
+}
+
+.toolbar.header {
+    position: relative;
+}
+
+.busqueda {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: #1c1c1c;
+}
+
+.searchbar {
+    width: 100%;
+    height: 105px;
+    background: #1c1c1c;
+    position: relative;
+    padding: 25px 20px 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.searchbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1280px;
+    width: 90%;
+    height: 55px;
+    background: #353535;
+    margin: 0 auto;
+    border-radius: 40px;
+    position: relative;
+    color: #fff;
+}
+
+.searchbar-input {
+    font-family: Abel, sans-serif;
+    font-size: 38px;
+    position: absolute;
+    border: 0;
+    text-align: center;
+    background: transparent;
+    height: 40px;
+    color: #fff;
+    flex: 1;
+}
+
+.botones-filtro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1280px;
+    width: 40%;
+    height: 55px;
+    margin: 0 auto;
+    border-radius: 40px;
+    position: relative;
+}
+
+.botones-filtro .btn {
+    border: 1px solid #343a40;
+    color: #dee2e6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}

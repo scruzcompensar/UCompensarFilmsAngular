@@ -1,0 +1,155 @@
+.panel {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4));
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 30vh;
+        display: flex;
+        align-items: center;     
+        position: static;  
+}
+
+.about-container {
+    padding: 50px 0;
+    display: flex;
+    background: #30383a;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+h2{
+    font-size: 70px;
+    color: #fefcfb;
+    margin-bottom: 15px;
+}
+
+.about-txt p {
+    font-size: 16px;
+    color: #e0e0e0;
+    margin-bottom: 35px;
+    margin-right: 110px;
+    font-family: "Shadows Into Light", cursive;
+    text-align: center;
+}
+
+.about-txt h2 {
+    font-family: "Shadows Into Light", cursive;
+}
+
+.information {
+    display: flex;
+    justify-content:  space-between;
+    padding: 50px 0;
+    background-color: black;
+}
+
+.information-1 {
+
+    display: flex;
+    align-items: center;
+}
+
+.information-1 h3 {
+    font-size:  70px;
+    color: #fefcfb;
+}
+
+.information-1 p{
+    font-size: 16px;
+    color: #e0e0e0;
+    margin-left: 15px;
+}
+
+.reparto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reparto-1 {
+   background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5));
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    padding: 25px;
+}
+
+.reparto-2 {
+    background-image: linear-gradient(
+     rgba(0,0,0,0.5),
+     rgba(0,0,0,0.5));
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 500px;
+     width: 100%;
+     padding: 25px;
+ }
+
+ .reparto-3 {
+    background-image: linear-gradient(
+     rgba(0,0,0,0.5),
+     rgba(0,0,0,0.5));
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 500px;
+     width: 100%;
+     padding: 25px;
+ }
+
+ .reparto-4 {
+    background-image: linear-gradient(
+     rgba(0,0,0,0.5),
+     rgba(0,0,0,0.5));
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 500px;
+     width: 100%;
+     padding: 25px;
+ }
+
+ .reparto-5 {
+    background-image: linear-gradient(
+     rgba(0,0,0,0.5),
+     rgba(0,0,0,0.5));
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 500px;
+     width: 100%;
+     padding: 25px;
+ }
+
+ .txt {
+    position: relative;
+ }
+
+ .txt h3 {
+    color: #fefcfb;
+    font-size: 35px;
+ }
+
+ .txt p {
+    font-size:  16 px;
+    color: #e0e0e0;
+    position: absolute;
+    top: 400px;
+    left: 0;
+    rotate: 270deg;
+ }
+
+ .base {
+    background-color: black;
+ }
